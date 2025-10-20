@@ -1,0 +1,450 @@
+{
+  "metadata": {
+    "title": "AI Proficiency Quiz",
+    "description": "Test your AI knowledge from beginner to professionally competent",
+    "total_questions": 36,
+    "total_levels": 6,
+    "questions_per_level": 6,
+    "lives": 3
+  },
+  "levels": [
+    {
+      "level": 1,
+      "name": "AI Curious",
+      "description": "Just heard about ChatGPT at a dinner party",
+      "questions": [
+        {
+          "question": "What does 'AI' stand for and what is its most basic definition?",
+          "options": [
+            "Algorithmic Innovation - new ways of programming computers",
+            "Artificial Intelligence - computer systems that can perform tasks requiring human-like intelligence",
+            "Automated Intelligence - software that runs automatically",
+            "Advanced Integration - connecting different computer systems together"
+          ],
+          "correct_answer": 1,
+          "explanation": "AI stands for Artificial Intelligence, which refers to computer systems designed to perform tasks that typically require human intelligence, such as understanding language, recognizing images, or making decisions."
+        },
+        {
+          "question": "Which of these is the best example of AI that most people interact with daily?",
+          "options": [
+            "A search engine like Google showing relevant results for your query",
+            "A digital calculator performing math operations",
+            "A word processor checking spelling",
+            "An email application sending messages"
+          ],
+          "correct_answer": 0,
+          "explanation": "Search engines use AI to understand your query, analyze billions of web pages, and rank results by relevance. This requires sophisticated pattern recognition and decision-making that goes beyond simple rule-based programming."
+        },
+        {
+          "question": "What is machine learning in the simplest terms?",
+          "options": [
+            "Teaching computers to follow a specific set of programmed rules",
+            "A method for storing large amounts of data efficiently",
+            "Connecting multiple computers together to work faster",
+            "A way for computers to learn patterns from examples without being explicitly programmed for every situation"
+          ],
+          "correct_answer": 3,
+          "explanation": "Machine learning allows computers to improve their performance on tasks by learning from data and examples, rather than being programmed with specific instructions for every possible situation they might encounter."
+        },
+        {
+          "question": "What is the main difference between traditional software and AI software?",
+          "options": [
+            "Traditional software is faster than AI software",
+            "AI software only works on newer computers",
+            "Traditional software follows programmed rules exactly, while AI software can adapt and make decisions based on patterns it has learned",
+            "AI software is always more expensive to run"
+          ],
+          "correct_answer": 2,
+          "explanation": "Traditional software executes predetermined instructions, while AI software can analyze new situations and make decisions based on patterns learned from training data, allowing it to handle scenarios it wasn't explicitly programmed for."
+        },
+        {
+          "question": "Which statement about current AI technology is most accurate?",
+          "options": [
+            "AI is very good at specific tasks but cannot easily transfer knowledge between different domains",
+            "AI works by connecting directly to human brains",
+            "AI can think and reason exactly like humans do",
+            "AI will always give the same answer to the same question"
+          ],
+          "correct_answer": 0,
+          "explanation": "Current AI systems are 'narrow' - they excel at specific tasks they're trained for but cannot easily apply that knowledge to completely different domains like humans can with their general intelligence."
+        },
+        {
+          "question": "What does it mean when people say AI can 'understand' language?",
+          "options": [
+            "AI translates everything into computer code first",
+            "AI has conscious awareness of what words mean like humans do",
+            "AI can only work with one language at a time",
+            "AI can process and respond to text in ways that appear to demonstrate comprehension"
+          ],
+          "correct_answer": 3,
+          "explanation": "AI language 'understanding' refers to sophisticated pattern matching and processing that enables appropriate responses, but it's different from human comprehension - AI doesn't have conscious awareness or true understanding of meaning."
+        }
+      ]
+    },
+    {
+      "level": 2,
+      "name": "LLM Explorer",
+      "description": "Understands how AI learns from data",
+      "questions": [
+        {
+          "question": "What are the three main types of machine learning?",
+          "options": [
+            "Computer learning, human learning, and robot learning",
+            "Fast learning, slow learning, and medium learning",
+            "Simple learning, complex learning, and advanced learning",
+            "Supervised learning, unsupervised learning, and reinforcement learning"
+          ],
+          "correct_answer": 3,
+          "explanation": "The three main types are: supervised learning (learning with examples and correct answers), unsupervised learning (finding patterns in data without examples), and reinforcement learning (learning through trial and error with rewards)."
+        },
+        {
+          "question": "What is training data in machine learning?",
+          "options": [
+            "Information about how long it takes to build an AI system",
+            "Examples and information used to teach an AI system how to perform a task",
+            "Data used to test if the computer is working properly",
+            "Data that moves very quickly through the system"
+          ],
+          "correct_answer": 1,
+          "explanation": "Training data is the collection of examples, inputs, and often correct answers that an AI system learns from. The quality and quantity of training data largely determines how well the AI will perform on new, unseen data."
+        },
+        {
+          "question": "What does it mean for an AI model to be 'trained'?",
+          "options": [
+            "The AI has been given access to the internet",
+            "The AI has been taught to follow company policies",
+            "The AI has been programmed with specific rules by developers",
+            "The AI has processed training data and adjusted its internal parameters to recognize patterns"
+          ],
+          "correct_answer": 3,
+          "explanation": "Training is the process where an AI model analyzes training data and adjusts its internal mathematical parameters to better recognize patterns and make accurate predictions on new, similar data."
+        },
+        {
+          "question": "Why is data quality important for AI systems?",
+          "options": [
+            "Data quality only matters for large companies",
+            "Poor quality data can cause AI systems to learn incorrect patterns and make bad predictions",
+            "Higher quality data makes AI systems run faster",
+            "AI systems automatically fix any data quality problems"
+          ],
+          "correct_answer": 1,
+          "explanation": "AI systems learn from their training data, so if that data contains errors, biases, or inconsistencies, the AI will learn these flaws and reproduce them in its predictions. Quality input data is essential for quality AI performance."
+        },
+        {
+          "question": "What is the difference between training and using an AI model?",
+          "options": [
+            "Training happens automatically; using requires human supervision",
+            "Training is free, but using the model costs money",
+            "Training is when the AI learns from data; using is when it applies what it learned to make predictions",
+            "Training is done by computers; using is done by humans"
+          ],
+          "correct_answer": 2,
+          "explanation": "Training is the learning phase where the AI analyzes data to develop its capabilities. Using (or inference) is when the trained model applies what it learned to analyze new data and make predictions or decisions."
+        },
+        {
+          "question": "What are neural networks designed to mimic?",
+          "options": [
+            "The way computers process information",
+            "The way databases store information",
+            "The way the internet connects different websites",
+            "The way networks of neurons work in the human brain"
+          ],
+          "correct_answer": 3,
+          "explanation": "Neural networks are inspired by biological neural networks in the brain, using interconnected nodes (artificial neurons) that process and transmit information, similar to how biological neurons communicate through synapses."
+        }
+      ]
+    },
+    {
+      "level": 3,
+      "name": "Big Data Dabbler",
+      "description": "Can explain supervised vs unsupervised learning",
+      "questions": [
+        {
+          "question": "In supervised learning, what makes the learning 'supervised'?",
+          "options": [
+            "The training data includes both inputs and the correct answers (labels)",
+            "A human supervisor watches the AI learn",
+            "The AI can only learn during business hours",
+            "The learning process is faster than other methods"
+          ],
+          "correct_answer": 0,
+          "explanation": "Supervised learning uses labeled training data - examples where both the input and the correct output are provided. This allows the AI to learn the relationship between inputs and desired outputs, like learning to recognize cats by seeing many photos labeled 'cat' or 'not cat'."
+        },
+        {
+          "question": "What type of problem is unsupervised learning best suited for?",
+          "options": [
+            "Making decisions that require human approval",
+            "Following predetermined rules and procedures",
+            "Finding hidden patterns or groupings in data when you don't know what you're looking for",
+            "Predicting specific outcomes when you have historical examples"
+          ],
+          "correct_answer": 2,
+          "explanation": "Unsupervised learning excels at discovering hidden structures in data without being told what to look for. Examples include customer segmentation, anomaly detection, or finding topics in documents when you don't know the categories in advance."
+        },
+        {
+          "question": "What is the main goal of classification in machine learning?",
+          "options": [
+            "To organize files on a computer system",
+            "To predict which category or class something belongs to",
+            "To calculate numerical values",
+            "To store data more efficiently"
+          ],
+          "correct_answer": 1,
+          "explanation": "Classification aims to predict discrete categories or classes for new examples based on patterns learned from training data. Examples include determining if an email is spam, diagnosing diseases, or identifying objects in images."
+        },
+        {
+          "question": "How does regression differ from classification in machine learning?",
+          "options": [
+            "Regression is more accurate than classification",
+            "Regression is older technology than classification",
+            "Regression requires more data than classification",
+            "Regression predicts continuous numerical values while classification predicts categories"
+          ],
+          "correct_answer": 3,
+          "explanation": "Regression predicts continuous numerical values (like predicting house prices or sales revenue), while classification predicts discrete categories (like spam/not spam or different product types). Both are types of supervised learning but solve different kinds of problems."
+        },
+        {
+          "question": "What is feature engineering in machine learning?",
+          "options": [
+            "Writing the code that makes AI systems run",
+            "Creating user interfaces for AI applications",
+            "Building the physical hardware for AI systems",
+            "The process of selecting and transforming the most relevant data attributes for training"
+          ],
+          "correct_answer": 3,
+          "explanation": "Feature engineering involves selecting, modifying, and creating the input variables (features) that will be most useful for the AI model to learn from. Good features help the model identify the most important patterns in the data."
+        },
+        {
+          "question": "What is overfitting in machine learning?",
+          "options": [
+            "When a model is trained on too many different types of data",
+            "When an AI system processes data too quickly",
+            "When a model learns the training data too specifically and performs poorly on new data",
+            "When an AI system uses too much computer memory"
+          ],
+          "correct_answer": 2,
+          "explanation": "Overfitting occurs when a model memorizes specific details of the training data rather than learning general patterns. This makes it perform well on training data but poorly on new, unseen data because it can't generalize beyond what it memorized."
+        }
+      ]
+    },
+    {
+      "level": 4,
+      "name": "AI Literate",
+      "description": "Knows what tokens are (and they're not cryptocurrency)",
+      "questions": [
+        {
+          "question": "What are tokens in the context of Large Language Models (LLMs)?",
+          "options": [
+            "Security keys that authenticate users",
+            "Error messages generated by AI systems",
+            "Digital coins used to purchase AI services",
+            "The basic units of text that LLMs process, which can be words, parts of words, or punctuation"
+          ],
+          "correct_answer": 3,
+          "explanation": "Tokens are the fundamental text units that LLMs break language into for processing. A token might be a whole word like 'hello' or part of a word like 'un-' and '-believable'. Understanding tokens is crucial because they determine both cost and context limits."
+        },
+        {
+          "question": "What is a context window in LLMs?",
+          "options": [
+            "The maximum amount of text (in tokens) that an LLM can consider at one time",
+            "The physical screen size where AI responses appear",
+            "The user interface for interacting with AI systems",
+            "The time it takes for an AI to generate a response"
+          ],
+          "correct_answer": 0,
+          "explanation": "A context window is the LLM's 'working memory' - the maximum number of tokens it can process simultaneously, including both your input and its response. When exceeded, the model starts 'forgetting' earlier parts of the conversation."
+        },
+        {
+          "question": "What does the 'temperature' parameter control in LLM responses?",
+          "options": [
+            "How fast the AI generates responses",
+            "How much the AI system heats up during processing",
+            "The randomness and creativity of the AI's outputs",
+            "The length of the AI's responses"
+          ],
+          "correct_answer": 2,
+          "explanation": "Temperature controls randomness in AI responses. Lower temperatures (0.1-0.3) produce more focused, consistent outputs ideal for factual tasks. Higher temperatures (0.7-1.0) increase creativity and variability, useful for brainstorming or creative writing."
+        },
+        {
+          "question": "What is prompt engineering?",
+          "options": [
+            "Building the hardware infrastructure for AI systems",
+            "Programming the internal algorithms of AI models",
+            "Designing user interfaces for AI applications",
+            "The practice of crafting effective inputs to get desired outputs from AI models"
+          ],
+          "correct_answer": 3,
+          "explanation": "Prompt engineering is the skill of designing and refining inputs (prompts) to AI models to achieve specific, high-quality outputs. It involves understanding how to structure requests, provide context, and guide the AI's responses effectively."
+        },
+        {
+          "question": "What is fine-tuning in the context of LLMs?",
+          "options": [
+            "Optimizing the speed of AI processing",
+            "Making small corrections to AI responses manually",
+            "Adjusting the computer settings where the AI runs",
+            "Training a pre-trained model further on specific data to adapt it for particular tasks or domains"
+          ],
+          "correct_answer": 3,
+          "explanation": "Fine-tuning takes a pre-trained LLM and continues training it on domain-specific data to adapt its knowledge and behavior for particular use cases, industries, or tasks while retaining its general language capabilities."
+        },
+        {
+          "question": "What are parameters in a neural network or LLM?",
+          "options": [
+            "The amount of memory the system uses",
+            "The internal numerical values that the model learns and adjusts during training",
+            "The questions you ask the AI system",
+            "The rules programmed by developers"
+          ],
+          "correct_answer": 1,
+          "explanation": "Parameters are the learnable weights and biases within a neural network that get adjusted during training. A model with billions of parameters can capture complex patterns - for example, GPT-3 has 175 billion parameters that encode its language understanding."
+        }
+      ]
+    },
+    {
+      "level": 5,
+      "name": "Gen AI Guru",
+      "description": "Understands RAG, grounding, and hallucinations",
+      "questions": [
+        {
+          "question": "What does RAG stand for and what problem does it solve?",
+          "options": [
+            "Random Answer Generator - it increases AI creativity",
+            "Retrieval-Augmented Generation - it grounds AI responses in specific, up-to-date information",
+            "Rapid AI Generation - it makes AI responses faster",
+            "Regulated AI Governance - it ensures AI compliance"
+          ],
+          "correct_answer": 1,
+          "explanation": "RAG (Retrieval-Augmented Generation) combines information retrieval with text generation. It first searches for relevant information from a knowledge base, then uses that information to generate grounded, accurate responses, reducing hallucinations and outdated information."
+        },
+        {
+          "question": "What are hallucinations in AI, and why do they occur?",
+          "options": [
+            "When AI systems process too much data too quickly",
+            "When AI systems overheat and malfunction",
+            "When AI responses are too creative or imaginative",
+            "When AI generates confident-sounding but factually incorrect or made-up information"
+          ],
+          "correct_answer": 3,
+          "explanation": "AI hallucinations occur when models generate plausible-sounding but false information, often with high confidence. This happens because LLMs predict likely text continuations based on patterns, not truth, and may fill knowledge gaps with convincing but incorrect 'facts'."
+        },
+        {
+          "question": "What is the difference between discriminative and generative AI models?",
+          "options": [
+            "Discriminative models are older technology, generative models are newer",
+            "Discriminative models are more expensive, generative models are cheaper",
+            "Discriminative models work faster, generative models are more accurate",
+            "Discriminative models classify or predict categories, generative models create new content"
+          ],
+          "correct_answer": 3,
+          "explanation": "Discriminative AI learns to distinguish between different classes or categories (like spam detection or image recognition), while generative AI learns to create new content similar to its training data (like generating text, images, or music)."
+        },
+        {
+          "question": "What does 'grounding' mean in the context of AI responses?",
+          "options": [
+            "Preventing AI systems from generating creative content",
+            "Limiting AI responses to simple, basic language",
+            "Connecting AI systems to electrical ground for safety",
+            "Ensuring AI responses are based on factual, verifiable information rather than just learned patterns"
+          ],
+          "correct_answer": 3,
+          "explanation": "Grounding means anchoring AI responses in factual, verifiable sources rather than relying solely on patterns learned during training. This helps ensure accuracy and reduces the risk of hallucinations by connecting outputs to real, current information."
+        },
+        {
+          "question": "What are transformer models and why are they important for modern AI?",
+          "options": [
+            "Models that convert AI between different formats",
+            "Models that transfer learning between different AI systems",
+            "A neural network architecture that revolutionized language processing through attention mechanisms",
+            "AI systems that can transform into different types of applications"
+          ],
+          "correct_answer": 2,
+          "explanation": "Transformers are a neural network architecture introduced in 2017 that use 'attention mechanisms' to understand relationships between words regardless of their distance in text. They're the foundation of modern LLMs like GPT, BERT, and others."
+        },
+        {
+          "question": "What is multimodal AI?",
+          "options": [
+            "AI systems that can process and generate multiple types of data like text, images, audio, and video",
+            "AI that can run on multiple different computers simultaneously",
+            "AI that uses multiple different algorithms at the same time",
+            "AI systems that can switch between different operating modes"
+          ],
+          "correct_answer": 0,
+          "explanation": "Multimodal AI can understand and generate different types of content - text, images, audio, video - and understand relationships between these modalities. Examples include AI that can describe images, generate pictures from text, or create videos with narration."
+        }
+      ]
+    },
+    {
+      "level": 6,
+      "name": "AI Strategist",
+      "description": "Can plan AI implementation without breaking your company",
+      "questions": [
+        {
+          "question": "What is the AI maturity model and why is it important for business strategy?",
+          "options": [
+            "A timeline showing when AI technology will become obsolete",
+            "A measurement of how old AI technology is",
+            "A framework that describes progressive stages of AI adoption and capability within organizations",
+            "A model that predicts AI market growth"
+          ],
+          "correct_answer": 2,
+          "explanation": "The AI maturity model outlines stages from initial awareness to advanced AI integration, helping organizations assess their current capabilities, plan progression, allocate resources effectively, and avoid common pitfalls in AI transformation."
+        },
+        {
+          "question": "What is MLOps and why is it critical for enterprise AI?",
+          "options": [
+            "Multi-Language Operations - managing AI systems in different languages",
+            "Machine Learning Operations - practices for deploying, monitoring, and maintaining AI models in production",
+            "Manual Learning Operations - having humans supervise all AI decisions",
+            "Maximum Learning Optimization - making AI systems learn as fast as possible"
+          ],
+          "correct_answer": 1,
+          "explanation": "MLOps applies DevOps principles to machine learning, ensuring AI models can be reliably deployed, monitored, updated, and scaled in production environments. It's essential for maintaining AI system performance and managing model lifecycle in enterprise settings."
+        },
+        {
+          "question": "What is model drift and why should business leaders care about it?",
+          "options": [
+            "The tendency for AI models to generate increasingly creative outputs",
+            "When AI models physically move to different servers",
+            "The gradual degradation of AI model performance as real-world data changes over time",
+            "When AI models become too expensive to operate"
+          ],
+          "correct_answer": 2,
+          "explanation": "Model drift occurs when the data patterns an AI was trained on no longer match current reality, causing performance degradation. Business leaders must plan for continuous monitoring and model retraining to maintain AI system effectiveness over time."
+        },
+        {
+          "question": "What is AI governance and what key components should it include?",
+          "options": [
+            "The organizational structure of AI development teams",
+            "Government regulations that control AI development",
+            "Financial management of AI project budgets",
+            "A framework of policies, processes, and controls for responsible AI development and deployment"
+          ],
+          "correct_answer": 3,
+          "explanation": "AI governance encompasses ethical guidelines, risk management, compliance frameworks, accountability structures, and decision-making processes that ensure AI systems are developed and deployed responsibly, transparently, and in alignment with business values and regulations."
+        },
+        {
+          "question": "What is the difference between horizontal and vertical AI scaling strategies?",
+          "options": [
+            "Horizontal scaling is cheaper, vertical scaling is more effective",
+            "Horizontal scaling uses multiple vendors, vertical scaling uses single vendors",
+            "Horizontal scaling applies AI across many departments/functions, vertical scaling deepens AI within specific domains",
+            "Horizontal means adding more computers, vertical means using faster computers"
+          ],
+          "correct_answer": 2,
+          "explanation": "Horizontal AI scaling spreads AI capabilities across multiple business functions (broad adoption), while vertical scaling develops deeper, more sophisticated AI capabilities within specific domains or processes. Organizations need balanced approaches for both breadth and depth."
+        },
+        {
+          "question": "What is the concept of 'AI-first' versus 'AI-enabled' business transformation?",
+          "options": [
+            "AI-first redesigns processes around AI capabilities, AI-enabled adds AI to existing processes",
+            "AI-first is more expensive than AI-enabled approaches",
+            "AI-first means using the newest AI technology, AI-enabled means using older AI",
+            "AI-first requires more technical expertise than AI-enabled"
+          ],
+          "correct_answer": 0,
+          "explanation": "AI-first transformation fundamentally reimagines business processes and models around AI capabilities, potentially achieving breakthrough improvements. AI-enabled transformation enhances existing processes with AI, offering incremental improvements with less disruption but potentially smaller gains."
+        }
+      ]
+    }
+  ]
+}
