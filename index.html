@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AI Proficiency Quiz - Test Your AI Knowledge</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- Welcome Screen -->
+    <div id="welcome-screen" class="screen active">
+        <div class="container">
+            <h1>fourfold: AI Professional Proficiency Quiz</h1>
+            <p class="subtitle">Test your understanding of AI, from beginner to professionally competent</p>
+
+            <div class="intro-box">
+                <h2>How It Works</h2>
+                <ul>
+                    <li><strong>6 Levels</strong> of increasing difficulty</li>
+                    <li><strong>6 Questions</strong> per level (36 total)</li>
+                    <li><strong>3 Lives</strong> - three wrong answers and you're out!</li>
+                    <li><strong>Find out</strong> your professional AI proficiency level</li>
+                </ul>
+            </div>
+
+            <div class="levels-preview">
+                <h3>The 6 Levels</h3>
+                <div class="level-grid">
+                    <div class="level-badge">
+                        <div class="level-badge-header">
+                            <span class="level-number">1</span>
+                            <span class="level-name">AI Curious</span>
+                        </div>
+                        <p class="level-description">Understanding AI fundamentals and basic applications</p>
+                    </div>
+                    <div class="level-badge">
+                        <div class="level-badge-header">
+                            <span class="level-number">2</span>
+                            <span class="level-name">LLM Explorer</span>
+                        </div>
+                        <p class="level-description">Learning how AI systems process and learn from data</p>
+                    </div>
+                    <div class="level-badge">
+                        <div class="level-badge-header">
+                            <span class="level-number">3</span>
+                            <span class="level-name">Big Data Dabbler</span>
+                        </div>
+                        <p class="level-description">Working with training data and model evaluation</p>
+                    </div>
+                    <div class="level-badge">
+                        <div class="level-badge-header">
+                            <span class="level-number">4</span>
+                            <span class="level-name">AI Literate</span>
+                        </div>
+                        <p class="level-description">Mastering language models and optimization techniques</p>
+                    </div>
+                    <div class="level-badge">
+                        <div class="level-badge-header">
+                            <span class="level-number">5</span>
+                            <span class="level-name">Gen AI Guru</span>
+                        </div>
+                        <p class="level-description">Understanding RAG, grounding, and advanced AI concepts</p>
+                    </div>
+                    <div class="level-badge">
+                        <div class="level-badge-header">
+                            <span class="level-number">6</span>
+                            <span class="level-name">AI Strategist</span>
+                        </div>
+                        <p class="level-description">Planning and implementing AI at scale in organizations</p>
+                    </div>
+                </div>
+            </div>
+
+            <form id="user-info-form" class="user-form">
+                <h3>Let's Get Started</h3>
+                <input type="text" id="user-name" placeholder="Your Name*" required>
+                <input type="email" id="user-email" placeholder="Your Email*" required>
+                <p class="privacy-note">We'll use this to send you personalized learning recommendations</p>
+                <button type="submit" class="btn-primary">Start Quiz</button>
+            </form>
+        </div>
+    </div>
+
+    <!-- Quiz Screen -->
+    <div id="quiz-screen" class="screen">
+        <div class="container">
+            <!-- Header -->
+            <div class="quiz-header">
+                <div class="lives">
+                    <span class="lives-label">Lives:</span>
+                    <div id="lives-display" class="lives-indicators">
+                        <span class="life active"></span>
+                        <span class="life active"></span>
+                        <span class="life active"></span>
+                    </div>
+                </div>
+                <div class="level-info">
+                    <span id="current-level-display">Level 1: AI Curious</span>
+                </div>
+                <div class="progress-info">
+                    <span id="progress-display">Question 1/6</span>
+                </div>
+            </div>
+
+            <!-- Progress Bar -->
+            <div class="progress-container">
+                <div id="progress-bar" class="progress-bar"></div>
+            </div>
+
+            <!-- Question Card -->
+            <div id="question-card" class="question-card">
+                <div class="question-number">Question <span id="question-num">1</span></div>
+                <h2 id="question-text" class="question-text"></h2>
+
+                <div id="options-container" class="options-container">
+                    <!-- Options will be dynamically inserted here -->
+                </div>
+
+                <div id="feedback" class="feedback hidden">
+                    <div id="feedback-result" class="feedback-result"></div>
+                    <div id="feedback-explanation" class="feedback-explanation"></div>
+                    <button id="next-btn" class="btn-primary">Next Question</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Completion Screen -->
+    <div id="completion-screen" class="screen">
+        <div class="container">
+            <div class="completion-content">
+                <h1 id="completion-title">Quiz Complete!</h1>
+                <div id="completion-message" class="completion-message"></div>
+
+                <!-- Badge Display -->
+                <div id="badge-container" class="badge-container">
+                    <canvas id="badge-canvas" width="400" height="500"></canvas>
+                </div>
+
+                <!-- Learning Recommendations -->
+                <div id="learning-recommendations" class="recommendations">
+                    <h3>Next Steps to Level Up</h3>
+                    <div id="recommendations-content"></div>
+                </div>
+
+                <!-- Feedback Form -->
+                <div class="feedback-form">
+                    <h3>Help Us Understand Your AI Journey</h3>
+                    <p>What's your biggest challenge in understanding or implementing AI in your daily work?</p>
+                    <textarea id="user-feedback" rows="5" placeholder="Share your thoughts..."></textarea>
+                    <button id="submit-feedback-btn" class="btn-primary">Submit Feedback</button>
+                </div>
+
+                <button id="restart-btn" class="btn-secondary">Take Quiz Again</button>
+            </div>
+        </div>
+    </div>
+
+    <!-- Scripts -->
+    <script src="quiz.js"></script>
+    <script src="badge-generator.js"></script>
+</body>
+</html>
